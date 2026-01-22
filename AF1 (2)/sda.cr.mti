@@ -1,0 +1,53 @@
+{D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/ALU.v} {1 {vlog -work work -vopt -stats=none {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/ALU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/defines.v} {1 {vlog -work work -vopt -stats=none {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/defines.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/HazardUnit.v} {1 {vlog -work work -vopt -stats=none {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/HazardUnit.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module HazardUnit
+
+Top level modules:
+	HazardUnit
+
+} {} {}} {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/ForwardingUnit.v} {1 {vlog -work work -vopt -stats=none {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/ForwardingUnit.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ForwardingUnit
+
+Top level modules:
+	ForwardingUnit
+
+} {} {}} {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/CCR_Unit.v} {1 {vlog -work work -vopt -stats=none {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/CCR_Unit.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module CCR_Unit
+
+Top level modules:
+	CCR_Unit
+
+} {} {}} {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/IF_ID_Reg.v} {1 {vlog -work work -vopt -stats=none {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/IF_ID_Reg.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module IF_ID_Reg
+
+Top level modules:
+	IF_ID_Reg
+
+} {} {}} {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/RegisterFile.v} {1 {vlog -work work -vopt -stats=none {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/RegisterFile.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/ControlUnit.v} {1 {vlog -work work -vopt -stats=none {D:/uni/3rd_year/1st_semster/Micro/project/AF1 (2)/ControlUnit.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}}

@@ -1,0 +1,57 @@
+// ==========================================
+// UNIFIED TEST: Loop -> Call -> Wait -> Int
+// ==========================================
+@00
+02  // Reset Vector -> Start at 02
+E0  // Interrupt Vector -> ISR at E0
+
+// ------------------------------------------
+// PART 1: LOOP TEST
+// ------------------------------------------
+@02
+7C  // IN R0   (Load Loop Count = 3)
+7D  // IN R1   (Load Loop Target = 06)
+7E  // IN R2   (Init Accumulator = 0)
+
+// Loop Body (Start: 06)
+@06
+8A  // INC R2  (R2++)
+7A  // OUT R2  (Show 1, 2, 3)
+A1  // LOOP R0, R1 (Dec R0, Jump to 06 if !=0)
+
+// ------------------------------------------
+// PART 2: CALL & RET TEST
+// (PC reaches here when Loop finishes)
+// ------------------------------------------
+@09
+7C  // IN R0   (Load Data = 10 / 0A hex)
+7D  // IN R1   (Load Subroutine Addr = 20)
+78  // OUT R0  (Show 0A before Call)
+B5  // CALL R1 (Jump to 20, Push Return Addr)
+
+// Return Point
+88  // INC R0  (10 -> 11 / 0B hex)
+78  // OUT R0  (Show 0B - Call/Ret Success)
+
+// ------------------------------------------
+// PART 3: IDLE LOOP (Wait for Interrupt)
+// ------------------------------------------
+7D  // IN R1   (Load Self Address = 0F)
+B1  // JMP R1  (Infinite Loop here...)
+
+// ------------------------------------------
+// SUBROUTINE (At Address 20)
+// ------------------------------------------
+@20
+80  // NOT R0  (Invert 0A -> F5)
+78  // OUT R0  (Show F5 - Inside Subroutine)
+80  // NOT R0  (Restore 0A)
+B8  // RET     (Return)
+
+// ------------------------------------------
+// ISR (Interrupt Service Routine at E0)
+// ------------------------------------------
+@E0
+7E  // IN R2   (Load Indicator AA)
+7A  // OUT R2  (Show AA - Inside ISR)
+BC  // RTI     (Return from Interrupt)

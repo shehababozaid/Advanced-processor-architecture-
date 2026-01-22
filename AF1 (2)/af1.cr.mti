@@ -1,0 +1,60 @@
+D:/uni/3rd_year/1st_semster/Micro/project/AF1/RegisterFile.v {1 {vlog -work work -vopt -stats=none D:/uni/3rd_year/1st_semster/Micro/project/AF1/RegisterFile.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} D:/uni/3rd_year/1st_semster/Micro/project/AF1/defines.v {1 {vlog -work work -vopt -stats=none D:/uni/3rd_year/1st_semster/Micro/project/AF1/defines.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} D:/uni/3rd_year/1st_semster/Micro/project/AF1/EX_MEM_Reg.v {1 {vlog -work work -vopt -stats=none D:/uni/3rd_year/1st_semster/Micro/project/AF1/EX_MEM_Reg.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module EX_MEM_Reg
+
+Top level modules:
+	EX_MEM_Reg
+
+} {} {}} D:/uni/3rd_year/1st_semster/Micro/project/AF1/DataMemory.v {1 {vlog -work work -vopt -stats=none D:/uni/3rd_year/1st_semster/Micro/project/AF1/DataMemory.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} D:/uni/3rd_year/1st_semster/Micro/project/AF1/ID_EX_Reg.v {1 {vlog -work work -vopt -stats=none D:/uni/3rd_year/1st_semster/Micro/project/AF1/ID_EX_Reg.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ID_EX_Reg
+
+Top level modules:
+	ID_EX_Reg
+
+} {} {}} D:/uni/3rd_year/1st_semster/Micro/project/AF1/IF_ID_Reg.v {1 {vlog -work work -vopt -stats=none D:/uni/3rd_year/1st_semster/Micro/project/AF1/IF_ID_Reg.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module IF_ID_Reg
+
+Top level modules:
+	IF_ID_Reg
+
+} {} {}} D:/uni/3rd_year/1st_semster/Micro/project/AF1/HazardUnit.v {1 {vlog -work work -vopt -stats=none D:/uni/3rd_year/1st_semster/Micro/project/AF1/HazardUnit.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module HazardUnit
+
+Top level modules:
+	HazardUnit
+
+} {} {}} D:/uni/3rd_year/1st_semster/Micro/project/AF1/ForwardingUnit.v {1 {vlog -work work -vopt -stats=none D:/uni/3rd_year/1st_semster/Micro/project/AF1/ForwardingUnit.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ForwardingUnit
+
+Top level modules:
+	ForwardingUnit
+
+} {} {}} D:/uni/3rd_year/1st_semster/Micro/project/AF1/MEM_WB_Reg.v {1 {vlog -work work -vopt -stats=none D:/uni/3rd_year/1st_semster/Micro/project/AF1/MEM_WB_Reg.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module MEM_WB_Reg
+
+Top level modules:
+	MEM_WB_Reg
+
+} {} {}}

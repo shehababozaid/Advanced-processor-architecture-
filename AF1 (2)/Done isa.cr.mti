@@ -1,0 +1,109 @@
+{D:/Assignment 1/FIRST/micro lectures/AF1 (2)/ID_EX_Reg.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/ID_EX_Reg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ID_EX_Reg
+
+Top level modules:
+	ID_EX_Reg
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/IF_ID_Reg.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/IF_ID_Reg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module IF_ID_Reg
+
+Top level modules:
+	IF_ID_Reg
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/ControlUnit.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/ControlUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/ALU.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/HazardUnit.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/HazardUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module HazardUnit
+
+Top level modules:
+	HazardUnit
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/ForwardingUnit.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/ForwardingUnit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ForwardingUnit
+
+Top level modules:
+	ForwardingUnit
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/MEM_WB_Reg.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/MEM_WB_Reg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MEM_WB_Reg
+
+Top level modules:
+	MEM_WB_Reg
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/Processor_TB.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/Processor_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Processor_TB
+
+Top level modules:
+	Processor_TB
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/RegisterFile.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/RegisterFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/defines.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/defines.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/CCR_Unit.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/CCR_Unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CCR_Unit
+
+Top level modules:
+	CCR_Unit
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/EX_MEM_Reg.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/EX_MEM_Reg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module EX_MEM_Reg
+
+Top level modules:
+	EX_MEM_Reg
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/PC_Unit.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/PC_Unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PC_Unit
+
+Top level modules:
+	PC_Unit
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/Processor_Top.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/Processor_Top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Processor_Top
+
+Top level modules:
+	Processor_Top
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/DataMemory.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/DataMemory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/InstructionMemory.v} {1 {vlog -work work -stats=none {D:/Assignment 1/FIRST/micro lectures/AF1 (2)/InstructionMemory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}}
